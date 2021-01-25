@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(252, 11, 11);
+    color: white;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px red solid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(252, 11, 11) ;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px red solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 45%;
+}
+
+#Bandera {
+    width: 0%;
+    height: 0%;
+    border-left: 70px solid hsl(249, 95%, 50%);
+    border-top: 50px solid #e9f80f;
+    border-bottom: 40px solid rgb(252, 13, 13);
+    border-right: 70px solid hsl(249, 95%, 50%);
+}
+
+.section-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 50%;
+    height: 40px;
+    border: 5px rgb(253, 18, 18) solid;
+    padding: 50%;
+    align-content: center;
+        
+}
+
+.cuadrado{
+    width: 80px;
+    height: 80px;
+    background: white solid;
+    border: rgb(253, 18, 18) solid;
+    margin: auto;
+    margin-top: 10%;
+    padding: 80px;
+}
+
+
+.pac-man{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid red;
+    border-left: 50px solid red;
+    border-bottom: 50px red solid;
+    border-radius: 100%;
+          
+}
+
+.charater{
+    width: 25%;
+    margin: 3%;
+    border: 2px red;
+}
+
+.ovalo {
+    border-radius: 60%;
+    width: 25%;
+    height: 50px;
+    border: 5px rgb(253, 18, 18) solid;
+    padding: 30%;
+    margin: auto;
+}
+
+.triangulo{
+    width: 0%;
+    height: 0%;
+    border-bottom: 100px solid rgb(252, 8, 8);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; 
+}
+
+.rombo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: rotate(50deg);
+}
